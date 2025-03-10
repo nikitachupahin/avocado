@@ -1,0 +1,144 @@
+body {
+    font-family:'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    color:#575757;
+}
+h1 {
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-image: url(https://learn.logikaschool.com/uploads/student/2899051/67a8857b08ff2.png);
+    display: flex;
+    background-size: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+h2, h3 {
+    color:#9EC2BC;
+}
+
+header, main, footer {
+    padding: 0 88px;
+}
+nav {
+    margin-top: 70px;
+    display: flex;
+    gap: 60px;
+}
+nav a {
+    font-size: 32px;
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding:10px ;
+    transition: 0.3c all;
+    border-radius: 10px;
+}
+nav a:hover {
+    background-color: #9EC2BC;
+}
+
+h1 {
+    font-size: 96px;
+    color:#9EC2BC;
+    -webkit-text-stroke: 3px white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 270px;
+}
+h2 {
+    font-size: 48px;
+    text-align: center;
+}
+.about {
+    display: flex;
+    padding-top: 130px;
+    justify-content: space-between;
+}
+#about {
+    text-align: start;
+}
+.about-div p {
+    font-size: 24px;
+    max-width: 574px;
+    line-height: 1.5;
+}
+#catalog, #reviews, #location {
+    margin-top: 170px;
+    margin-bottom: 90px;
+}
+h3 {
+    font-size: 32px;
+}
+.sallary {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+.location {
+    text-align: center;
+}
+.menu-items {
+    display:flex;
+    justify-content: center;
+    gap:105px ;
+}
+.menu-img {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.reviews-item {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.menu-text {
+   max-width: 280px;
+}
+
+.reviews-item:not(:last-child) {
+    margin-bottom: 100px;
+}
+.reviews-text {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.reviews-img {
+    width: 200px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.location-streets p {
+    font-size: 36px;
+    margin-top: 78px;
+}
+.location-streets h3 {
+    font-size: 48px;
+}
+.location-streets {
+    margin-bottom: 125px;
+}
+footer {
+    background-color:#9EC2BC;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+}
+.footer-img {
+    width:50px;
+    height: 50px;
+}
+.menu-info {
+    margin-left: 10px;
+}
